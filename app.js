@@ -1,9 +1,16 @@
-const dayOfWeek = ["mon", "tue", "wed", "thu", "fri", "sat", "sun"];
+const player = {
+    name:"xoxocopy",
+    points:10,
+    fat:true,
 
-const nonsense = [1, 2, "hellp", false, null, true, undefined, "xoxocopy"];
+};
 
-console.log(dayOfWeek[0], nonsense);
+console.log(player);
+console.log(player.name);
 
-dayOfWeek.push("sun2");
+console.log(player["name"]);
 
-console.log(dayOfWeek[7]);
+player.fat = false;
+player.lastName = "potato";
+
+console.log(player);
