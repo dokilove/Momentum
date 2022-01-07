@@ -1,9 +1,12 @@
-const player ={
-    name: "xoxocopy",
-    sayHello: function(otherPersonsName){
-        console.log("Hello! " + otherPersonsName);
+const calculator ={
+    plus: function (a,b) {
+        return a+b;
+    },
+
+    minus: function(a,b){
+        return a-b;
     }
 };
 
-console.log(player.name);
-player.sayHello("lynn");
+const plusResult = calculator.plus(2, 4);
+const minusResult = calculator.minus(plusResult, 1);
