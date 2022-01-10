@@ -1,12 +1,17 @@
-const calculator ={
-    plus: function (a,b) {
-        return a+b;
-    },
+const age = parseInt(prompt("How old are you?"));
 
-    minus: function(a,b){
-        return a-b;
-    }
-};
+console.log(age);
 
-const plusResult = calculator.plus(2, 4);
-const minusResult = calculator.minus(plusResult, 1);
+if (isNaN(age) || age < 0){
+    console.log("Please write a number");
+} else if (age < 18){
+    console.log("You are too young");
+} else if (age >= 18 && age < 50) {
+    console.log("You can drink");
+} else if (age > 50 && age <= 80){
+    console.log("You should exercise");
+} else if (age === 100){
+    console.log("wow you are 100");
+} else if (age> 80){
+    console.log("You can do whatever you want");
+}
