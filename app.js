@@ -1,6 +1,5 @@
-const title = document.getElementById("title");
+const title = document.querySelectorAll(".hellolive h1:first-child");
+const grab3 = document.querySelector("#grab3 h1");
 
-title.innerText = "Gotchu!";
-
-console.log(title.id);
-console.log(title.className);
+console.log(title);
+console.log(grab3);
