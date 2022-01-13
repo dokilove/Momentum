@@ -10,4 +10,14 @@ function handleTiteClick(){
     title[1].style.color = "wheat";
 }
 
+function handleMouseEnter(){
+    title[1].style.color = "skyblue";
+}
+
+function handleMouseLeave(){
+    title[1].style.color = "blue";
+}
+
 title[1].addEventListener("click", handleTiteClick);
+title[1].addEventListener("mouseenter", handleMouseEnter);
+title[1].addEventListener("mouseleave", handleMouseLeave);
