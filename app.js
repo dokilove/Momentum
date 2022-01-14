@@ -3,12 +3,7 @@ const grab3 = document.querySelector("#grab3 h1");
 
 
 function handleTiteClick(){
-    const clickedClass = "clicked";
-    if (h1[1].className === clickedClass){
-        h1[1].className = "";
-    } else{
-        h1[1].className = clickedClass;
-    }    
+    h1[1].classList.toggle("clicked");
 }
 
 h1[1].addEventListener("click", handleTiteClick);
