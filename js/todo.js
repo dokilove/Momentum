@@ -26,7 +26,7 @@ function paintToDo(newToDoObj){
     button.addEventListener("click", deleteToDo);
 
     const icon = document.createElement("i");
-    icon.className = 'far fa-trash-alt';
+    icon.className = 'fas fa-trash';
 
     li.appendChild(span);
     li.appendChild(button);
