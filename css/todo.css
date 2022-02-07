@@ -1,0 +1,47 @@
+#todo {
+  margin: 20px;
+  padding: 3px;
+  background-color: white;
+  text-align: left;
+  border: 1px solid black;
+  /*border-radius: 10px;*/
+}
+
+#todo-form {
+}
+
+#todo-form input {
+  border: none;
+  font-size: 36px;
+  color: black;
+  font-family: "Dongle";
+}
+
+#todo-form input::placeholder {
+  color: lightgray;
+  font-size: 36px;
+  font-family: "Dongle";
+}
+
+.todo-component {
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  padding: 0;
+}
+
+.todo-contents {
+  font-size: 36px;
+  font-family: "Dongle";
+  align-items: flex-start;
+  padding: 0;
+}
+
+.todo-checkBox {
+  font-size: 20px;
+  padding: 5px 10px 0px 0px;
+}
+
+.checked {
+  color: lightgray;
+}

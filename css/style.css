@@ -1,5 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Dongle&family=East+Sea+Dokdo&family=Gothic+A1:wght@300&family=Hahmlet:wght@300&family=Lobster&display=swap");
 @import "reset.css";
+@import "todo.css";
 
 body {
   background-color: lightgray;
@@ -31,37 +32,6 @@ body {
 
 #entrance input {
   font-size: 24px;
-}
-
-#todo {
-  margin: 20px;
-  padding: 3px;
-  background-color: white;
-  text-align: left;
-  border: 1px solid black;
-  border-radius: 10px;
-}
-
-#todo li span {
-  padding: 1px 2px;
-  font-size: 36px;
-  font-family: "Dongle";
-}
-
-#todo-form {
-}
-
-#todo-form input {
-  border: none;
-  font-size: 36px;
-  color: black;
-  font-family: "Dongle";
-}
-
-#todo-form input::placeholder {
-  color: lightgray;
-  font-size: 36px;
-  font-family: "Dongle";
 }
 
 #kotowaza {
